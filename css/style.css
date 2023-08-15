@@ -1,0 +1,577 @@
+/*HTML*/
+html{
+	background-color:lightblue;
+}
+
+
+
+
+
+
+
+
+
+/*SECTION*/
+section.ami{
+display:flex;
+flex-flow:column;
+
+}
+
+section.video{
+	text-align:center;
+}
+
+
+
+section.chaine{
+	display:flex;
+	margin:3%;
+	border:2px solid black;
+	border-radius:1%;
+	box-shadow:10px 10px 10px black;
+	background-image: url(../image/header.jpeg);
+	background-size:cover;
+	background-attachment:fixed;
+	width:auto;
+	flex-wrap:wrap;
+	justify-content:space-between;
+}
+
+
+
+
+
+
+
+
+
+
+/*ARTICLE*/
+article.profil{
+text-align:center;
+margin:7% auto;
+	border-radius:40px;
+	border:2px solid black;
+	width: 60%;
+	background-image: url(../image/header.jpeg);
+	background-size:cover;
+	background-attachment:fixed;
+}
+
+article.confirme{
+	display:flex;
+	flex-wrap:wrap;
+	margin:1% auto;
+	background-color:white;
+	border:3px solid black;
+	border-radius:8px;
+	width:75%;
+}
+
+article.apercuvideo{
+	background-color:GhostWhite;
+	border:2px solid black;
+	margin:0.5%;
+	min-width:10%;
+	width:10%;
+	padding:2%;
+	border-radius:5% ;
+}
+
+article.moderation{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+
+
+
+
+
+/*DIV*/
+div.ami{
+	display:flex;
+	justify-content: center;
+	border:2px solid cornflowerblue;
+	border-radius:10px;
+	padding:0.5%;
+	align-items:center;
+	width:47.5%;
+	margin:1%;
+	background-color: white;
+}
+
+div.demander{
+	margin-top:1%;
+	width:16%;
+	text-align:center;
+	margin: 0 auto;
+}
+
+div.profil{
+	text-align:right;
+	color:white;
+	position:relative;
+	bottom:5rem;
+	right:5.5rem;
+}
+
+div.modification{
+	width: 100%;
+	margin:1%;
+	text-align:center;
+}
+
+div.modificationVideo{
+	text-align:right;
+}
+
+div.suppressionComm{
+	display:inline-block;
+}
+
+
+
+
+
+
+
+
+
+/*HEADER AND FOOTER*/
+body > header{
+	background-image: url(../image/header.jpeg);
+	background-size:cover;
+	background-attachment:fixed;
+	border:5px solid black;
+}
+
+header.video{
+margin-bottom:2%;
+text-align:center;
+}
+
+footer.video{
+width:100%;	
+margin-top:2%;
+text-align:left;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*TITRE*/
+h1{
+color:white;
+padding:2%;
+font-size:2.5rem;
+text-shadow:10px 10px 5px black;
+}
+
+h2{
+font-size:1.8rem;
+text-shadow:10px 10px 5px black;
+}
+
+h3{
+	padding:1%;
+font-size:2.5em;
+text-shadow:1px 1px 30px black;
+	color:white;
+
+}
+
+
+h3.video{
+	text-align:center;
+}
+
+
+h4{
+font-size:1.3rem;
+text-shadow:5px 5px 5px black
+}
+
+
+h4:hover{
+	color:orange;
+}
+
+
+
+
+
+
+
+
+
+
+/*UL*/
+ul.navi{
+list-style-type:none;
+display:flex;
+justify-content:space-around;
+
+}
+
+
+ul.profil{
+	border:2px solid CornflowerBlue;
+	border-radius:8px;
+	box-shadow:2px 2px 2px 2px CornflowerBlue;
+	width:30%;
+	position:relative;
+	left:32.5%;
+	padding:3%;
+	background-color:white;
+	margin-bottom:2%;
+}
+
+ul.comm{
+	 border:2px solid black;
+	border-radius:30px;
+	 width: 50%;
+	 margin: 0 auto;
+ }
+
+li.comm{
+list-style-type: none;
+	padding:1%;
+
+}
+
+
+
+
+
+
+
+/*A*/
+a{
+	text-decoration:none;
+}
+
+a.titrePrincipal{
+	color:white;
+}
+
+a.titrePrincipal:hover{
+	color:yellow;
+}
+
+a.probleme{
+	display:flex;
+	justify-content:center;
+	margin-top:2%;
+}
+
+a.profil{
+	font-size: 1.5rem;
+}
+
+
+a.couleur{
+	color:white;
+}
+
+
+
+a.compte{
+	display:block;
+	border:3px solid CornflowerBlue;
+	border-radius:5px;
+	background-color:CornflowerBlue;
+	margin:2% auto;
+	color:white;
+	width:15%;
+	padding:1%;
+}
+
+
+a.bouton:hover{
+	color:gold;
+	background-color:AntiqueWhite;
+	border-color:gold;
+}
+
+
+a.bouton{
+	border:2px solid black;
+	border-radius:10%;
+	padding:1%;
+	margin-top:15%;
+	background-color:white;
+}
+
+
+
+
+a.modif{
+	border:2px solid black;
+	text-align: right;
+	border-radius:15%;
+	padding:0.5%;
+	margin:1%;
+	background-color: white;
+	color:black;
+}
+
+
+a.deleteComm{
+	border:2px solid black;
+	background-color: white;
+	color:black;
+}
+
+
+a.ami{
+	border:1px solid black;
+	padding:0.7%;
+	margin:1% 5%;
+	border-radius:10px;
+}
+
+a.chaineUtilisateur{
+	margin:0 auto;
+}
+
+
+
+/*SPAN*/
+span.supp{
+margin-left:auto;
+margin-right:auto;
+width:100%;
+color:black;
+font-size:2em;
+
+}
+
+span.video{
+	width:100%;
+	display:block;
+}
+
+
+span.videoVue{
+	position: relative;
+	left: 20%;
+	font-size: 1.3rem;
+	margin:2%;
+}
+
+span.ami{
+	width:40%;
+}
+
+
+span.profil{
+	color:white;
+	font-size: 2rem;
+}
+
+
+span.errorLogin{
+
+	color:red;
+	display: flex;
+	justify-content: center;
+}
+
+
+span.valide{
+
+	color:green;
+	display: flex;
+	justify-content: center;
+}
+
+span.desc{
+	margin-top:2%;
+	display: block;
+	font-size: 2rem;
+}
+span.titre{
+
+	display: inline-block;
+	font-size: 2.5rem;
+	position: absolute;
+	left:20%;
+}
+
+
+
+/*LI*/
+li > a{
+color:white;
+text-decoration:none;
+padding-bottom:1%;
+text-shadow:3px 3px 3px black;
+font-size:1.5rem;
+}
+
+li > a:hover{
+color:gold;
+}
+
+
+li > a:active{
+color:DarkGoldenRod;
+}
+
+
+li.profil{
+	list-style-type:none;
+}
+
+
+
+
+
+
+
+
+
+/*IFRAME*/
+iframe{
+margin-top:2%;
+width:60%;
+}
+
+
+
+
+
+
+
+
+
+
+/*IMG*/
+img.videoVue{
+width:1%;	
+}
+
+img.video{
+width:10%;
+}
+
+
+img.minia{
+width:100%;
+}
+
+
+img.photoProfil{
+	width:25%;
+}
+
+
+img.profil{
+width:3%;
+border-radius:50%;
+}
+
+img.profilAmi{
+width:50%;
+margin:2%;
+}
+
+img.deco{
+	min-width: 15%;
+	width: 30%;
+}
+
+
+
+
+
+
+
+/*FORMULAIRE*/
+label{
+  display:inline-block;
+	width: auto;
+	margin:2% auto 0 auto;
+}
+
+form.evaluation{
+position: relative;
+left: 20%;
+	width: auto;
+}
+
+form.formulaire{
+	display : flex;
+	text-align:center;
+	flex-direction:column;
+	width : auto;
+  	margin:  auto;
+}
+
+input.bouton{
+	background-color:CornflowerBlue;
+	border:2px solid CornflowerBlue;
+	border-radius:8px;
+	padding:0.5%;
+	margin:1% auto;
+	color:white;
+}
+
+input.evaluation{
+	width: 10%;
+	height: 5%;
+	padding:0;
+	margin:0 auto;
+}
+
+input.chaine{
+	width: 1%;
+}
+
+input.bouton ~ input.bouton{
+	 margin-top:10%;
+ }
+
+input{
+	border:2px solid CornflowerBlue;
+	box-shadow:2px 2px 2px 2px CornflowerBlue;
+	border-radius:8px;
+	padding:3%;
+}
+
+textarea{
+	width: 100%;
+}
+
+
+button.video{
+	width:5%;
+	margin:1%;
+}
+
+
+
+@media screen and (max-width: 800px) {
+	/*DIV*/
+	div.ami{
+
+		width:100%;
+		margin:0 auto;
+	}
+
+	/*TITRE*/
+	h4{
+		font-size:4rem;
+	}
+}
